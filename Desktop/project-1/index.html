@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/libs/bootstrap-5.3.7-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="/src/libs/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <script src="/src/libs/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <title>فروشگاه</title>
+</head>
+
+<body>
+    <!-- topnavbar -->
+<nav id="topnavbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="/src/images/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        فروشگاه
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">خانه</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            محصولات
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#digital">دیجیتال</a></li>
+            <li><a class="dropdown-item" href="#book">کتاب</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">درباره ما</a>
+        </li>
+    </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="جستجو" aria-label="جستجو"/>
+        <button class="btn btn-outline-success" type="submit">
+            <span class="fa fa-search"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Home (slideshow) -->
+<div id="home" data-bs-spy="scroll" data-bs-target="#topnavbar" class="container-fluid home-margin-top style=height: 500px">
+    <div class="row">
+        <div class="col p-1">
+            <div id="carousel-right-top" class="carousel slide h-100">
+                <div class="carousel-inner rounded h-100">
+                    <div class="carousel-item active h-100">
+                        <img src="/src/images/slider/4b4cacbbb7ef954768d9e5addd705b9eda1dc45f_1607701946.jpg" class="d-block w-100 h-100 " alt="picture">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/images/slider/73d2f4937a8aaccc2c066b2379fc29b07a53e95f_1607523220.jpg" class="d-block w-100 h-100 " alt="picture">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/images/slider/96b86180d4fbba0c14ada72cae8fcc0bc792debb_1607502340.jpg" class="d-block w-100 h-100 " alt="picture">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-right-top" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-right-top" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="row row-cols-1">
+                <div class="col p-1">
+                    <div id="carousel-left-top" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="/src/images/cover/f5859eeac310443187fb7420119b91fed7dc01a2_1607707634.jpg" class="d-block w-100" alt="picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div id="carousel-left-middle" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="/src/images/cover/583c3f539fdc44b8e384fbe2939448ed8615a61d_1607497984.jpg" class="d-block w-100" alt="picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div id="carousel-left-bottom" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="/src/images/cover/dec7be2edad42418ca96043de56da48608a98244_1607497921.jpg" class="d-block w-100" alt="picture">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/images/cover/841f16eca80460502281dba7897547e4a5801814_1607497898.jpg" class="d-block w-100" alt="picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- digital -->
+ <div id="digital" data-bs-spy="scroll" data-bs-target="#topnavbar" class="container-fluid mt-3 mb-3">
+    <div class="row">
+        <div class="col p-0 m-0">
+            <h1 class="text-center bg-success text-white p-3 m-0">دیجیتال</h1>
+        </div>
+    </div>
+    <div class="row mt-3 gy-3">
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/1119992.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">گوشی ایفون 8</h5>
+                    <p class="card-text">گوشی ایفون 8 نسخه اروپا رم 8 حافظه 128 گیگ</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/113067949.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">گوشی ایفون 10</h5>
+                    <p class="card-text">گوشی ایفون10 نسخه اروپا رم 12 حافظه 128 گیگ</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/113542052.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">گوشی ایفون 10</h5>
+                    <p class="card-text">گوشی ایفون 8 نسخه اروپا رم 12 حافظه 256 گیگ</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/113542279.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">گوشی ایفون 14</h5>
+                    <p class="card-text">گوشی ایفون 8 نسخه امریکا رم 16 حافظه 512 گیگ</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- Book -->
+ <div id="book" data-bs-spy="scroll" data-bs-target="#topnavbar" class="container-fluid mt-3 mb-3">
+    <div class="row">
+        <div class="col p-0 m-0">
+            <h1 class="text-center bg-primary text-white p-3 m-0">کتاب</h1>
+        </div>
+    </div>
+    <div class="row mt-3 gy-3">
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/book/111304316.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">شدن</h5>
+                    <p class="card-text">از میشل اوباما</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/book/121134103.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title"> 1984</h5>
+                    <p class="card-text">از جورج اورول</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/book/4537013.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">خودت باش دختر</h5>
+                    <p class="card-text">از ریچل هاریس</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+           <div class="card p-2">
+                <img src="/src/images/items/book/4959682.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">خودت را به فنا نده</h5>
+                    <p class="card-text">گری جان بیشاپ</p>
+                    <a href="#" class="btn btn-primary">مشاهده</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- About -->
+<div id="about" data-bs-spy="scroll" data-bs-target="#topnavbar" class="container-fluid mt-3 mb-3">
+    <div class="row">
+        <div class="col p-0 m-0">
+            <h1 class="text-center bg-dark text-white p-3 m-0">درباره</h1>
+        </div>
+    </div>
+</div>
+<div class="container margin-left-0">
+    <div class="row mt-0 mb-5">
+        <div class="card">
+            <h5 class="card-header">درباره ما</h5>
+            <div class="card-body">
+                <h5 class="card-title">فروشگاه اینترنتی ما</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">تماس با ما</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
